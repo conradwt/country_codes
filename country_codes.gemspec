@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
-$:.unshift File.expand_path("../lib", __FILE__)
-require 'version'
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'country_codes/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "country_codes"

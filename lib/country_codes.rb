@@ -1,4 +1,4 @@
-require "country_codes/version"
+require 'country_codes/version'
 
 module CountryCodes # :nodoc:
   def self.method_missing(name, *args)
